@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    
+    font-size: 250px;
+    padding-top: 200px;
+}
+@media screen and (max-width:475px) {
+    p{
+        font-size: 60px;
+        padding-top: 300px;
+    }
+}
