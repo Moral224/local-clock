@@ -4,14 +4,26 @@
     box-sizing: border-box;
 }
 
-p{
+#clock{
     
-    font-size: 250px;
-    padding-top: 200px;
+    font-size: 200px;
+    padding-top: 170px;
+}
+#date{
+    font-size: 100px;
+    transform: translateY(-50px);
 }
 @media screen and (max-width:475px) {
-    p{
+    body{
+        overflow: hidden;
+    }
+    #clock{
         font-size: 60px;
         padding-top: 300px;
+    }
+    #date{
+
+        font-size: 40px;
+        transform: translateY(-20px);
     }
 }
